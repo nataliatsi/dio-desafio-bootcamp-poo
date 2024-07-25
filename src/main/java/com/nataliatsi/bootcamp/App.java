@@ -1,13 +1,13 @@
 package com.nataliatsi.bootcamp;
 
-/**
- * Hello world!
- *
- */
-public class App 
+import com.nataliatsi.bootcamp.menu.Menu;
+
+
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Menu menu = new Menu();
+        menu.exibirMenu();
     }
 }
